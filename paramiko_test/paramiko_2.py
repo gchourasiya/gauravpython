@@ -25,9 +25,5 @@ except paramiko.AuthenticationException:
     sys.exit(1)
 except:
     print("Exception")
-<<<<<<< HEAD
-=======
-    #End of code.
->>>>>>> 56f5cf0 (First code push)
 
 
