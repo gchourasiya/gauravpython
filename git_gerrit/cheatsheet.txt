@@ -1,0 +1,36 @@
+Checkin
+    #git add.
+    #git status
+    #git commit -m "gimme_aws_creds_changes"
+    #git status
+    #git log
+    #git pull --rebase origin master        (OR devel instead of master)
+    #git push origin HEAD:/refs/for/devel
+
+Ammend
+    #git add.
+    #git commit --amend
+    #git rebase -i origin/devel
+    #git push origin HEAD:refs/for/devel
+
+    
+
+Fix:
+	#git reset <filename>
+	#git checkout <filename>
+	#git reset --hard
+
+Merge
+	#git mergetool
+
+Clean
+	#git clean -df
+
+Stash
+	#git stash save
+	#git stash pop
+Config
+    #git config --global user.name "<username>"
+    #git config --global user.email "<user email>"
+
+ssh-keygen -t ed25519 -C "<email address in double quotes>"
