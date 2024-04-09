@@ -33,7 +33,7 @@ print("\n\nUsing a : copy")
 
 d = c[:]
 print(id(c) == id(d))          # False - d is now a new object
-print(id(c[0]) == id(d[0]))    # False - d[0] is now a new object
+print(id(c[0]) == id(d[0]))    # True - d[0] is same object
 print(c)
 print(d)
 

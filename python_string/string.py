@@ -64,3 +64,11 @@ y = x.isdecimal()
 print(y)
 
 
+
+xm = 'hello'
+xmList = xm.split()
+print(xmList)
+
+xml = 'hello'
+xml = list(xml)
+print(xml)

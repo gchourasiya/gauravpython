@@ -2,7 +2,7 @@ def first(msg):
     print(msg)
 
 
-first("Hello")
+# first("Hello")
 
 second = first("hello")
 

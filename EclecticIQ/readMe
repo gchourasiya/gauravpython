@@ -1,0 +1,15 @@
+Assumptions:
+Python 3.X is installed in the system.
+ 
+Follow below steps:
+1. Extract the attached zip file into local file system.
+3. Launch command prompt in windows or terminal if OS is Linux.
+4. Run the command "pip install -r .\requirements.txt"
+5. Add the folder path to the PYTHONPATH environment variable.
+6. Using CLI navigate to the extracted folder and run the below command to execute the test case.
+	#robot --pythonpath . --variable sortby:name --variable filterby:Se -t FILTER-ROWS-BY-COLUMN-NAME  .\TESTS.ROBOT
+	Note : 1. Run time variables filterby and sortby have been added to provide user to supply the column names and filter text
+	of his choice.
+			2. Due to some pythonpath issues , it is recommended we specify the pythopath as the current working directory to 
+			let the custom libraries getting recognized.
+			

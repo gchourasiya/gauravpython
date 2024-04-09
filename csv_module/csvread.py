@@ -9,7 +9,6 @@ with open(csvfile) as csvfile:          #original File handling object
     csvdata = csv.reader(csvfile)       #csv handling object
     header = []
     header=next(csvdata)
-    print("Header :",header)
     rows =[]
     for row in csvdata:
         rows.append(row)

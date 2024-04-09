@@ -21,7 +21,8 @@ class Employee(Person):
         self.post = post
 
         # invoking the __init__ of the parent class
-        Person.__init__(self, name, idnumber)
+        # Person.__init__(self, name, idnumber)
+        super().__init__(name,idnumber)
 
 
 # creation of an object variable or an instance
